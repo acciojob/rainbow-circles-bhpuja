@@ -1,21 +1,78 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Circles</title>
+    <style>
+        /* General circle styles */
+        div {
+            border-radius: 50%;
+            margin: auto;
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            display: block;
+        }
+
+        /* Outer circle - Red */
+        #circle1 {
+            width: 300px;
+            height: 300px;
+            background-color: #ff0000;
+        }
+
+        /* Second circle - Orange */
+        #circle2 {
+            width: 250px;
+            height: 250px;
+            background-color: #ffa500;
+            top: 25px;
+            left: 25px;
+        }
+
+        /* Third circle - Yellow */
+        #circle3 {
+            width: 200px;
+            height: 200px;
+            background-color: #ffff00;
+            top: 50px;
+            left: 50px;
+        }
+
+        /* Fourth circle - Green */
+        #circle4 {
+            width: 150px;
+            height: 150px;
+            background-color: #008000;
+            top: 75px;
+            left: 75px;
+        }
+
+        /* Fifth circle - Blue */
+        #circle5 {
+            width: 100px;
+            height: 100px;
+            background-color: #0000ff;
+            top: 100px;
+            left: 100px;
+        }
+
+        /* Sixth circle - Purple */
+        #circle6 {
+            width: 50px;
+            height: 50px;
+            background-color: #800080;
+            top: 125px;
+            left: 125px;
+        }
+    </style>
 </head>
-
 <body>
-    <!-- the entire body must be written by student -->
-    <div id="outer">
-        <div id="middle">
-            <div id="inner"></div>
-        </div>
-    </div>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div id="circle1"></div>
+    <div id="circle2"></div>
+    <div id="circle3"></div>
+    <div id="circle4"></div>
+    <div id="circle5"></div>
+    <div id="circle6"></div>
 </body>
-
 </html>
